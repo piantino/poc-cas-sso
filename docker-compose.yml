@@ -1,0 +1,14 @@
+# https://github.com/keycloak/keycloak-containers/blob/master/docker-compose-examples/keycloak-postgres.yml
+
+version: '3'
+
+services:
+
+  cas:
+    build: cas-overlay-template/
+    ports:
+     - "8443:8443"
+     - "8081:8080"
+    volumes:
+     - ./cas:/etc/cas
+
