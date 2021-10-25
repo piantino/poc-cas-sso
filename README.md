@@ -8,9 +8,12 @@ https://localhost:8443/cas
 Usuário `casuser`
 Senha `Mellon`
 
+https://localhost:8444/cas-management
+
 ## Instalação
 
 Rodar `./criar-chaves.sh`.
+
 
 ## Material de apoio
 

@@ -1,3 +1,6 @@
 [submodule "cas-overlay-template"]
 	path = cas-overlay-template
 	url = https://github.com/apereo/cas-overlay-template.git
+[submodule "cas-management-overlay"]
+	path = cas-management-overlay
+	url = https://github.com/apereo/cas-management-overlay
